@@ -1,0 +1,7 @@
+float x;
+int ejemplo
+record { int x; float v; m: array of [0...9] of int; }
+array of [0...9] of array of [0...9] of array of [0...9] of int;
+func ( nombreArray: array of [0...9] of int; nombreArray: array of [0...9] of int; float x; ):  int
+proc ( float x; int w; )
+func ( nombreArray: array of [1...10] of int; nombreArray: array of [1...10] of int; ):  int

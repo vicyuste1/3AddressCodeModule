@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+    <title>How to use</title>
+</head>
+<style>
+	h1 {text-align: center;}
+	p {text-align: justify;}
+	body {padding: 0 1em; }
+</style>
+<body>
+	<h1>How to use</h1>
+	</br>
+	<p>At the moment the app does not support subexpressions between parenthesis. In spite of this, if an expression with subexpressionssi is used there will be no erros; they will be transformed into its equivalent temporals and will be shown at the end of the translation.</p>
+	<p>This app allows to translate simple boolean to its equivalent 3-address code. Introducing text into the text field and clicking the translate button, the equivalent translation will appear in the bottom window.</p>
+	<p>Throughtthe menu "File" it is possible to save the transtlation, which will be saved in the root folder of th App.</p>
+	</br>
+	<h3>Expressions format</h3>
+	<p>Any expression introduced must follow the folowing format:</p>
+	<p><b>if (EXPRESSION) then EXPRESSION else EXPRESSION</b> , where EXPRESSION can be any kind of boolean expression or variable WITHOUT white spaces. It is very important to respect the white spaces, otherwise the translation might not work.</p>
+	<p>The expressions need to be separated by white spaces. For example <b>if (a>0 && b>0 || !x) then c=3 else c=1</b> is a valid expression, while <b>if ( a>0&&b>0 || !x ) then c=3 else c=1</b> it's not.</p>
+	</body>
+</html>

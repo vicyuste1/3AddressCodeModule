@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+    <title>Como usar</title>
+</head>
+<style>
+	h1 {text-align: center;}
+	p {text-align: justify;}
+	body {padding: 0 1em; }
+</style>
+<body>
+	<h1>Como usar</h1>
+	</br>
+	<p>Esta app permite traducir expresiones boleanas simples en su código equivalente en 3 direcciones. Introduciendo el texto en la barra de texto y haciendo click en el botón de traducir, la traducción equivalente en código de 3 direcciones aparece en la parte inferior.</p>
+	<p>La app no soporta por el momento subexpresiones entre paréntesis. Pese a ello, si se introduce una expresión con subexpresiones no se producirá ningún error, sino que serán transformadas en los temporales correspondientes y se mostrarán al final de la traducción.</p>
+	<p>Mediante el menú "Archivo" es posible guardar el resultado de la traducción, que se guardará en la carpeta raíz de la aplicación.</p>
+	</br>
+	<h3>Formato de las expresiones</h3>
+	<p>Cualquier expresión introducida debe seguir el siguiente formato:</p>
+	<p>if (EXPRESSION) then EXPRESSION else EXPRESSION , donde EXPRESSION puede ser cualquier tipo de expresión booleana o variable SIN espacios en blanco. Es muy importante respetar los espacios en blanco, sino la traducción puede no funcionar.</p>
+		<p>Las expresiones serán separadas entre sí por espacios en blanco. Por ejemplo <b>if (a>0 && b>0 || !x) then c=3 else c=1</b> es una expresión válida, mientras que <b>if ( a>0&&b>0 || !x ) then c=3 else c=1</b> no lo es.</p>
+	</body>
+</html>

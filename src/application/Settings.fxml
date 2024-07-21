@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="326.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SettingsController">
+   <children>
+      <ChoiceBox fx:id="languageBox" layoutX="88.0" layoutY="130.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-radius: 4;" AnchorPane.leftAnchor="88.0" AnchorPane.topAnchor="130.0" />
+      <Label alignment="CENTER" layoutX="-4.0" layoutY="57.0" prefHeight="63.0" prefWidth="398.0" text="%languageLabel" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Label>
+   </children>
+</AnchorPane>
